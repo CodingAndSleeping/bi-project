@@ -9,9 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "@gausszhou/vue3-drag-resize-rotate": "^3.0.1",
+    "echarts": "^5.4.3",
+    "vue": "^3.2.37",
+    "vue-echarts": "^6.6.1"
   },
   "devDependencies": {
+    "@arco-design/web-vue": "^2.50.1",
     "@vitejs/plugin-vue": "^3.1.0",
     "sass": "^1.66.1",
     "sass-loader": "^13.3.2",
