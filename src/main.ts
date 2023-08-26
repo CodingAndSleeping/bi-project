@@ -11,11 +11,13 @@ import VueDragResizeRotate from "@gausszhou/vue3-drag-resize-rotate";
 import "@gausszhou/vue3-drag-resize-rotate/lib/bundle.esm.css";
 
 
+import 'virtual:svg-icons-register'
+
 const app = createApp(App)
 
 
-app.use(ArcoVue)
+
 app.component('v-chart', VueECharts)
 app.component('vue-drag-resize', VueDragResizeRotate);
-
+app.use(ArcoVue)
 app.mount('#app')

@@ -9,6 +9,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 
+
 const charts = ref([
   {
     key: "LineChart",
@@ -30,4 +31,14 @@ const handleDragStart = (e: DragEvent, item: { key: string, name:string}) => {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.main{
+  height: 100%;
+
+  li{
+    height: 20px;
+  }
+}
+
+
+</style>

@@ -1,8 +1,11 @@
 <template>
-  <Index></Index>
+  <CustomChartView></CustomChartView>
 </template>
 
 <script setup lang="ts">
-import Index from './views/CustomChart/index.vue';
+import CustomChartView from './views/CustomChart/CustomChartView.vue';
 </script>
-<style lang='scss' scoped></style>
+<style lang='scss' scoped>
+
+
+</style>
